@@ -5,7 +5,7 @@ include_once '../../header.inc.php';?>
 	<div class = "maincont_for_view">
 	 <div class = "post" align="center">
 	  <h3>Результат поиска.</h3>
-		<p> Позиция выбранного числа <?php echo $value;?> в заданной последовательности "странной математики" - <?php echo $result;?> из <?php echo $n;?> значений!</p>
+		<p> Позиция выбранного числа <?php echo $val;?> в заданной последовательности "странной математики" - <?php echo $result;?> из <?php echo $n;?> значений!</p>
 		<div align="center"><button onclick="history.back();">Ещё раз?</button></div>
 	 </div>
 	 <div class = "post" align="center">

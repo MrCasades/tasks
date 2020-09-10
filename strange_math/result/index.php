@@ -13,7 +13,7 @@ if (isset ($_GET['add']))
 	
 	//Генерация массива "странной математики"
 	$n = $_POST['n'];
-	$value = (int)$_POST['ins_data'];
+	$val = (int)$_POST['ins_data'];
 	
 	for ($i = 1; $i <= $n; $i++)
 	{
@@ -38,7 +38,7 @@ if (isset ($_GET['add']))
 		exit();
 	}
 	
-	$result = array_search($value, $strangeMathArr) + 1;
+	$result = array_search($val, $strangeMathArr) + 1;
 	
 	include 'result.html.php';
 }
